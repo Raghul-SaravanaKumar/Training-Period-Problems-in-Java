@@ -1,5 +1,4 @@
 
-
 abstract class Animalss{
 	abstract void makesound();
 	void sleep() {
