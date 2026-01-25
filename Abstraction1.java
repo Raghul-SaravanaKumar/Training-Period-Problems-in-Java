@@ -9,6 +9,7 @@ abstract class Animalss{
 		System.out.println("Animal constructor has been called");
 	}
 }
+
 class Dogs extends Animalss{
 	void makesound() {
 		System.out.println("Dog is barking");
