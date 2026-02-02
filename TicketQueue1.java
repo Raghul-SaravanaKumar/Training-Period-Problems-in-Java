@@ -10,17 +10,17 @@ public class TicketQueue1{
             return;
         }
         queue[++rear]=person;
-        System.err.println(""+person+"joined  the queue");
+        System.err.println(""+person+" joined  the queue");
     }
     void dequeue(){
         if(front>rear){
             System.out.println("Queue is empty");
             return;
         }
-        System.out.println(""+queue[front++]+"bought the tickets");
+        System.out.println(""+  queue[front++]+" bought the tickets");
     }
     public static void main(String[] args) {
-        TicketQueue q=new TicketQueue();
+        TicketQueue1 q=new TicketQueue1();
         q.enqueue(1);
         q.enqueue(2);
         q.enqueue(3);
