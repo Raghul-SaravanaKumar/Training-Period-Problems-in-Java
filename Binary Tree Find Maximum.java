@@ -13,6 +13,7 @@ public class Main {
             int n = sc.nextInt();
 
             if (n < 0)
+                
                 break;
 
             max = Math.max(max, n);
